@@ -1,4 +1,3 @@
-
 Sua_Idade = int(input("Sua idade: "))
 Seu_Nome = input("Seu_Nome: ")
 
@@ -15,3 +14,5 @@ elif Sua_Idade < Adulto and Dif <= -2:
     print(Seu_Nome + " " + "Você não tem 18 anos! faltam: " + str(Dif*-1) + " anos para completar 18 anos!")
 elif Sua_Idade < Adulto and Dif == -1:
     print(Seu_Nome + " " + "Você não tem 18 anos! falta apenas: " + str(Dif*-1) + " ano para completar 18 anos!")
+    
+    
